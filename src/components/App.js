@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import Foco from './Foco';
+import FilaFocos from './FilaFocos';
+import FocoMercurial from './FocoMercurial';
 
 function App() {
-  return (
-    <div id="techo">
-      <Foco/>
-      <Foco/>
-    </div>
-    
- 
-)}
+   return (
+      <div id="techo">
+         <FocoMercurial />
+         <FilaFocos/>
+         <FocoMercurial />
+      </div>
+   );
+}
 
-export default App;
+export default App; 

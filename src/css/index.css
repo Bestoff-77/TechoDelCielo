@@ -19,6 +19,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .foco{
@@ -30,3 +31,17 @@ code {
   justify-content: space-around;  
 }
 
+.focoMercurial {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 100px;
+  background-color: white;
+}
+
+.luzMercurial {
+  width: 80%;
+  height: 50px;
+  background-color: orange;
+}
